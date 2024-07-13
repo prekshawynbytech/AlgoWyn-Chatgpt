@@ -108,7 +108,7 @@ def get_text() -> str:
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 os.environ["OPENAI_API_KEY"] = openai_api_key
 if not openai_api_key:
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
