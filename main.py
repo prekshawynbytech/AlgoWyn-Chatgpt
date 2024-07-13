@@ -14,7 +14,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
-st.title("Stock Data Chatbot")
+st.title("AlgoWyn Chatbot")
 
 from cypher_chain import CustomCypherChain
 def creds():
