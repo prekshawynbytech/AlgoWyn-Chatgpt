@@ -26,7 +26,10 @@ custom_css = """
             }
             </style>
             """
+st.markdown(custom_css, unsafe_allow_html=True)
 
+# Your Streamlit app code goes here
+st.markdown("<h1 class='title'>AlgoWyn Chatbot!</h1>", unsafe_allow_html=True)
 from cypher_chain import CustomCypherChain
 def creds():
     load_dotenv()
