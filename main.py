@@ -18,6 +18,9 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 
 custom_css = """
             <style>
+             body {
+                background-color: white;
+            }
             .title {
                 color: orange;
                 font-family: 'Helvetica Neue', sans-serif;
