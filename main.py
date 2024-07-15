@@ -13,7 +13,7 @@ from cypher_chain import CYPHER_QA_PROMPT
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
+st.set_page_config(page_title="AlgoWyn")
 st.title("AlgoWyn Chatbot")
 
 from cypher_chain import CustomCypherChain
