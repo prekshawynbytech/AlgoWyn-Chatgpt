@@ -29,6 +29,26 @@ custom_css = """
                 margin-top: -80px;
                 text-align:center;
             }
+            .sidebar .sidebar-content {
+                background-color: #f8f9fa;
+            }
+            .stButton>button {
+                background-color: #ff7f0e;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            .stButton>button:hover {
+                background-color: #e67300;
+                color: white;
+            }
+            .stTextInput>div>div>input {
+                border: 1px solid #ccc;
+                padding: 10px;
+                border-radius: 5px;
+            }
             </style>
             """
 st.markdown(custom_css, unsafe_allow_html=True)
