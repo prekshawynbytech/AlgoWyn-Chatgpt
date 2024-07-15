@@ -22,8 +22,8 @@ custom_css = """
                 background-color: white;
             }
             .title {
-                color: orange;
-                font-family: 'Helvetica Neue', sans-serif;
+                color: #e2472f;
+                font-family: 'Helvetica Neue', Arial;
                 font-size: 2em;
                 font-weight: bold;
                 margin-top: -80px;
