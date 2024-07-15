@@ -16,6 +16,16 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
 st.title("AlgoWyn Chatbot")
+custom_css = """
+            <style>
+            .title {
+                color: orange;
+                font-family: 'Helvetica Neue', sans-serif;
+                font-size: 2em;
+                font-weight: bold;
+            }
+            </style>
+            """
 
 from cypher_chain import CustomCypherChain
 def creds():
