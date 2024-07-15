@@ -26,7 +26,7 @@ custom_css = """
                 font-family: 'Helvetica Neue', sans-serif;
                 font-size: 2em;
                 font-weight: bold;
-                margin-top: 10px;
+                margin-top: -20px;
             }
             </style>
             """
