@@ -25,7 +25,6 @@ custom_css = """
                .title {
                box
                position:fixed;
-               background-color: black;
               color: #e2472f;
                 font-family: 'Helvetica Neue', Arial;
                 font-size: 2em;
