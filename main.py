@@ -28,7 +28,7 @@ custom_css = """
                 top: 0;
                 width: 100%;
                 background-color: white;
-                padding: 50px 20;
+                padding: 100px ;
                 text-align: center;
                 font-family: 'Helvetica Neue', Arial;
                 font-size: 24px;
