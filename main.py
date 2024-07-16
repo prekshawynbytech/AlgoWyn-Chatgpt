@@ -67,7 +67,7 @@ def creds():
 
 # Load secrets
 url = "bolt://localhost:7687"
-username = "p1"
+username = "p2"
 password = "prekneo4j"
 
 # Langchain x Neo4j connections
