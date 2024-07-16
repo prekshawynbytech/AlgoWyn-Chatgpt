@@ -32,7 +32,7 @@ custom_css = """
             }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
-                padding-top: -80px;
+                padding-top: -800px;
             }
             .stButton>button {
                 background-color: #ff7f0e;
