@@ -58,14 +58,6 @@ custom_css = """
             </style>
             """
 st.markdown(custom_css, unsafe_allow_html=True)
-st.markdown(
-    """
-    <div class="logo-container">
-        <img src="logo.png" width="50">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 # Your Streamlit app code goes here
 st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
