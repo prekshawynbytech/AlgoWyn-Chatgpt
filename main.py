@@ -23,12 +23,13 @@ custom_css = """
                 background-color: white;
             }
                .title {
+               position:fixed
               color: #e2472f;
                 font-family: 'Helvetica Neue', Arial;
                 font-size: 2em;
                 font-weight: bold;
                 text-align: center;
-                margin-top: -90px;
+                margin-top: -50px;
                 }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
