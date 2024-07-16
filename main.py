@@ -34,7 +34,7 @@ custom_css = """
                 }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
-                margin-top: -10px;
+                margin-top: -100px;
             }
             .stButton>button {
                 background-color: #ff7f0e;
