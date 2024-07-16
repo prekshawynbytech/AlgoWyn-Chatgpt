@@ -28,7 +28,7 @@ custom_css = """
                 font-size: 2em;
                 font-weight: bold;
                 text-align: center;
-                margin-top: 20px;
+                margin-top: -100px;
                 }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
