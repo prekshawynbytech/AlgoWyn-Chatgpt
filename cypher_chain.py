@@ -71,7 +71,7 @@ The information part contains the provided information that you must use to cons
 Give the results that contains more than one data in Tabular format by default.
 The provided information is authoritative, you must never doubt it or try to use your internal knowledge to correct it.
 Make the answer sound as a response to the question. Do not mention that you based the result on the given information.
-If the provided information is empty, say that you don't know the answer.
+If the provided information is empty, say that you don't know the answer. You should treat both upper case and lower case letters equally . there should be no case sensitivity
 Even if the question doesn't provide full person or organization names, you should use the full names from the provided
 information to construct an answer. You should have the ability to analyse and predict the future values. If i tell total profit and loss for the month
 of july you should go to the neo4j and find equivalent month number for example july-7, june-6 etc..
