@@ -24,11 +24,16 @@ custom_css = """
             }
             .title {
                 color: #e2472f;
+                position : fixed;
+                top: 0;
+                width: 100%;
+                background-color: white;
+                padding: 10px 0;
+                text-align: center;
                 font-family: 'Helvetica Neue', Arial;
-                font-size: 2em;
-                font-weight: bold;
-                margin-top: -80px;
-                text-align:center;
+                font-size: 24px;
+                z-index: 1000;
+                box-shadow: 0px 4px 2px -2px gray;
             }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
