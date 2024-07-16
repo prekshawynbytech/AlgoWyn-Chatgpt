@@ -23,7 +23,7 @@ custom_css = """
                 background-color: white;
             }
                .title {
-               position:fixed
+               position:fixed;
               color: #e2472f;
                 font-family: 'Helvetica Neue', Arial;
                 font-size: 2em;
