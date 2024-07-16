@@ -37,7 +37,8 @@ custom_css = """
                 margin-top: -100px;
             }
             .image{
-            margin-top=-90px;
+            margin-top:-90px;
+            margin-left: 100px;
             }
             .stButton>button {
                 background-color: #ff7f0e;
