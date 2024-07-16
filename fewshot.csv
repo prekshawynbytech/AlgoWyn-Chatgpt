@@ -3,9 +3,9 @@ Question,Cypher
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
 WHERE p.month = 'July'
 RETURN SUM(a.profit_loss) AS total_profit_loss"
-"Show me the profit and loss for the month of December.
+"Show me the profit and loss for the month of Jan.
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
-WHERE p.month = 'December'
+WHERE p.short_month = 'Jan'
 RETURN SUM(a.profit_loss) AS total_profit_loss"
 " Can you sum up the Profit and loss for September
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
