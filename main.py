@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-st.image("logo.png", width=100)
+st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 custom_css = """
             <style>
@@ -35,6 +35,9 @@ custom_css = """
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
                 margin-top: -100px;
+            }
+            .image{
+            margin-top=-90px;
             }
             .stButton>button {
                 background-color: #ff7f0e;
