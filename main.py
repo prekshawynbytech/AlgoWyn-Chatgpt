@@ -24,11 +24,11 @@ custom_css = """
             }
                .title {
               color: #e2472f;
-                font-family: 'Helvetica Neue', sans-serif;
+                font-family: 'Helvetica Neue', Arial;
                 font-size: 2em;
                 font-weight: bold;
                 text-align: center;
-                margin-top: -100px;
+                margin-top: -90px;
                 }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
