@@ -61,7 +61,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 st.markdown(
     """
     <div class="logo-container">
-        <img src="logo.png" width="100">
+        <img src="logo.png" width="50">
     </div>
     """,
     unsafe_allow_html=True
