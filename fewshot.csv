@@ -15,14 +15,14 @@ RETURN SUM(a.profit_loss) AS total_profit_loss"
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
 WHERE p.month = 'July' AND p.week = 'first week'
 RETURN a"
-"Show me the orders placed in the third week of November
-","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 3, month: 11, year: 2024})
+"Show me the orders placed in the  week 3 of November
+","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 3, month: 'november', year: 2024})
 RETURN a"
 "Retrieve orders for the last week of January
-","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 4, month: 1, year: 2024})
+","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 4, month: 'january', year: 2024})
 RETURN a"
-"Give me the details of the order with orderId 12345
-","MATCH (a:AlgoOrders {id: 12345})
+"Give me the details of the order with orderId 4105
+","MATCH (a:AlgoOrders {id: 4105})
 RETURN a"
 "What are the orders placed in July
 ","MATCH (a:AlgoOrders)
