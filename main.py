@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-st.image("logo.png", width=50, margin-top=-80)
+st.image("logo.png", width=50)
 
 custom_css = """
             <style>
