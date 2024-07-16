@@ -66,9 +66,9 @@ def creds():
 
 
 # Load secrets
-url = "neo4j+s://c1e96139.databases.neo4j.io"
-username = "neo4j"
-password = "t90Pab_G9IVD3nQ7QWN_gX5l9IQZ0q9kM4fbk5iCX7A"
+url = "bolt://localhost:7687"
+username = "p1"
+password = "prekneo4j"
 
 # Langchain x Neo4j connections
 graph = Neo4jGraph(username=username, password=password, url=url)
