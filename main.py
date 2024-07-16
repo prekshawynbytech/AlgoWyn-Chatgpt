@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-st.image("logo.png", width=50)
+st.sidebar.image("logo.png", width=50)
 
 custom_css = """
             <style>
@@ -50,22 +50,12 @@ custom_css = """
                 padding: 10px;
                 border-radius: 5px;
             }
-             .logo-container {
-                position: absolute;
-                top: 20px;
-                left: 20px;
-                z-index: 1;
+             
             </style>
             """
 st.markdown(custom_css, unsafe_allow_html=True)
-st.markdown(
-    """
-    <div class="logo-container">
-        <img src="logo.png" width="100">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
+
 
 # Your Streamlit app code goes here
 st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
