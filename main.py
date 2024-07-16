@@ -68,6 +68,7 @@ custom_css = """
              
             </style>
             """
+st.markdown('<div class="header"><img src="data:image/png;base64,{}" alt="logo"/>AlgoWyn</div>'.format(st.image_to_url(logo, width=50)), unsafe_allow_html=True)
 st.markdown(custom_css, unsafe_allow_html=True)
 
 
