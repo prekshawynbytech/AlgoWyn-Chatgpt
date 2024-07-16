@@ -15,21 +15,35 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-st.image("logo.png", width=100)
-
+#st.image("logo.png", width=100)
+logo = Image.open("logo.png")
 custom_css = """
             <style>
              body {
                 background-color: white;
             }
-            .title {
-                color: #e2472f;
-                font-family: 'Helvetica Neue', sans-serif;
-                font-size: 2em;
-                font-weight: bold;
-                text-align: center;
-                margin-top: -90px;
-            }
+               
+            .header {
+                 color: #e2472f;
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
+                    background-color: white;
+                    padding: 10px 0;
+                    text-align: center;
+                    font-family: 'Helvetica Neue', sans-serif;
+                    font-size: 24px;
+                    z-index: 1000;
+                    box-shadow: 0px 4px 2px -2px gray;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    }
+    .header img {
+        margin-right: 10px;
+        width: 50px; /* Adjust the width as needed */
+        height: auto;
+    }
             .sidebar .sidebar-content {
                 background-color: #f8f9fa;
                 padding-top: -800px;
