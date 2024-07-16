@@ -19,21 +19,21 @@ RETURN a"
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 3, month: 'november', year: 2024})
 RETURN a"
 "Retrieve orders for the last week of January
-","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 4, month: 'january', year: 2024})
+","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {week: 'fourth week', month: 'january', year: 2024})
 RETURN a"
 "Give me the details of the order with orderId 4105
 ","MATCH (a:AlgoOrders {id: 4105})
 RETURN a"
 "What are the orders placed in July
-","MATCH (a:AlgoOrders)
-WHERE date(a.date) >= date('2024-07-01') AND date(a.date) <= date('2024-07-31')
+","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
+WHERE p.month = 'July'
 RETURN a"
 "what are the orders placed in june
-","MATCH (a:AlgoOrders)
-WHERE date(a.date) >= date('2024-06-01') AND date(a.date) <= date('2024-06-30')
+","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period)
+WHERE p.month = 'June'
 RETURN a"
-"Show the buy date for order ID 54321
-","MATCH (a:AlgoOrders {id: 54321})
+"Show the buy date for order ID 4105
+","MATCH (a:AlgoOrders {id: 4105})
 RETURN a.order_buy_datetime AS buy_date"
 "Show the cumulative profit and loss for the year 2022
 ","MATCH (a:AlgoOrders)-[:IN_PERIOD]->(p:Period {year: 2022})
@@ -54,10 +54,10 @@ RETURN a"
 ","MATCH (a:AlgoOrders)
 WHERE date(a.order_buy_datetime) = date('2022-12-25')
 RETURN a"
-"What is the total profit and loss for Dhoni strategy in July
-","MATCH (a:AlgoOrders {strategy: 'Dhoni'})-[:IN_PERIOD]->(p:Period {month: 7, year: 2024})
+"What is the total profit and loss for DHONI strategy in July
+","MATCH (a:AlgoOrders {strategy: 'DHONI'})-[:IN_PERIOD]->(p:Period {month: 7, year: 2024})
 RETURN SUM(a.profit_loss) AS total_profit_loss"
-"What is the total profit and loss for Dhoni strategy last week
-","MATCH (a:AlgoOrders {strategy: 'Dhoni'})-[:IN_PERIOD]->(p:Period {week: 27, year: 2024}) // adjust week and year as needed
+"What is the total profit and loss for DHONI strategy last week
+","MATCH (a:AlgoOrders {strategy: 'DHONI'})-[:IN_PERIOD]->(p:Period {week: 27, year: 2024}) // adjust week and year as needed
 RETURN SUM(a.profit_loss) AS total_profit_loss"
 
