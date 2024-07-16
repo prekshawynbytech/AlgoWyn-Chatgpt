@@ -132,7 +132,7 @@ def dynamic_response_tabs(i):
                 # Display database results in a table
                 database_results = st.session_state["database"][i]
                 if isinstance(database_results, pd.DataFrame) and not database_results.empty:
-                    st.table(database_results)  # Use st.table() for static table
+                    st.dataframe(database_results)  # Use st.table() for static table
                     # st.dataframe(database_results)  # Use st.dataframe() for interactive table
                 else:
                     st.write("No data found.")
@@ -190,7 +190,7 @@ if user_input:
         
         if db_output:
             st.session_state.database.append(pd.DataFrame(db_output))
-            st.table(pd.DataFrame(db_output))  # Use st.table() for static table
+            st.dataframe(pd.DataFrame(db_output))  # Use st.table() for static table
         else:
             st.session_state.database.append(pd.DataFrame())
         st.session_state.cypher.append(output.get("cypher", ""))
