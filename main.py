@@ -28,36 +28,33 @@ st.markdown("""
         justify-content: center;
         position: relative;
         padding: 10px;
-        margin top: -130px;
+        margin-top: -130px;
     }
     .logo {
         position: absolute;
         left: -50px; /* Adjust as needed */
         height: 20px; /* Adjust as needed */
     }
-    .ask {
-            color: white;
-             font-family: 'Helvetica Neue', Arial;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        width: 100%;
-        margin-top:-90px;
-        }
-        .algowyn {
-           color: #e2472f;
+    .ask, .algowyn {
         font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
         text-align: center;
-        width: 100%;
-        margin-top:-90px;
-        }
+        width: auto;
+        margin-top: -90px;
+    }
+    .ask {
+        color: white;
+    }
+    .algowyn {
+        color: #e2472f;
+    }
     </style>
     <div class="header">
-       <span class="ask">Ask </span><span class="algowyn">AlgoWyn</span>
+        <span class="ask">Ask</span><span class="algowyn"> AlgoWyn</span>
     </div>
 """, unsafe_allow_html=True)
+
 st.sidebar.image("logo.png", width=70)
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
