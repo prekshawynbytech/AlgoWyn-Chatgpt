@@ -18,7 +18,9 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 #st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
+logo_path = "logo.png"
 
+# Use st.markdown to create the header with CSS
 st.markdown("""
     <style>
     .header {
@@ -26,8 +28,8 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
+        background-color: black; /* For black background */
         padding: 10px;
-        margin-top:-90px;
     }
     .logo {
         position: absolute;
@@ -40,11 +42,12 @@ st.markdown("""
         font-size: 2em;
         font-weight: bold;
         text-align: center;
+        width: 100%;
     }
     </style>
     <div class="header">
-        <img src=""C:\Users\HP\Desktop\AlgoWyn Chatgpt\logo.png""  class="logo">
-        <div class="title">AlgoWyn Chatbot</div>
+        <img src="{logo_path}" class="logo" alt="Logo">
+        <div class="title">Your Title Here</div>
     </div>
 """, unsafe_allow_html=True)
 
