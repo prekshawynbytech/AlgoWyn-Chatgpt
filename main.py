@@ -35,20 +35,23 @@ st.markdown("""
         left: -50px; /* Adjust as needed */
         height: 20px; /* Adjust as needed */
     }
-    .title {
-        color: #e2472f;
+    .ask {
+            color: white;
+             font-family: 'Helvetica Neue', Arial;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        margin-top:-90px;
+        }
+        .algowyn {
+           color: #e2472f;
         font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
         text-align: center;
         width: 100%;
         margin-top:-90px;
-    }
-    .ask {
-            color: white;
-        }
-        .algowyn {
-            color: orange;
         }
     </style>
     <div class="header">
