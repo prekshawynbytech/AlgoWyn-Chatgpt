@@ -50,7 +50,7 @@ st.markdown(
          font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
-        margin-left:-200px;
+        margin-left:-250px;
         }
     </style>
     <div class="header">
