@@ -20,17 +20,35 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 
 #logo_path = "AlgoWyn-Chatgpt/logo.png"
 
-# Use st.markdown to create the header with CSS
-# Function to load HTML and CSS files
-def load_html(html_file):
-    with open(html_file, 'r') as file:
-        return file.read()
-
-# Load the HTML content
-html_content = load_html('index.html')
-
-# Use st.markdown to display the HTML content
-st.markdown(html_content, unsafe_allow_html=True)
+st.markdown("""
+    <style>
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: black; /* For black background */
+        padding: 10px;
+    }
+    .logo {
+        position: absolute;
+        left: 10px; /* Adjust as needed */
+        height: 40px; /* Adjust as needed */
+    }
+    .title {
+        color: #e2472f;
+        font-family: 'Helvetica Neue', Arial;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    </style>
+    <div class="header">
+        <img src="{logo_path}" class="logo" alt="Logo">
+        <div class="title">Your Title Here</div>
+    </div>
+""", unsafe_allow_html=True)
 
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
