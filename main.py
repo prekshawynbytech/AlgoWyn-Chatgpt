@@ -46,6 +46,10 @@ st.markdown(
     }
     .ask{
         color:white;
+         font-family: 'Helvetica Neue', Arial;
+        font-size: 2em;
+        font-weight: bold;
+        margin-left:100px;
         }
     </style>
     <div class="header">
