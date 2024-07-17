@@ -78,6 +78,7 @@ of july you should go to the neo4j and find equivalent month number for example 
 you are  smart enough to understand the queries for other months by yourself
 all the cypher queries are in fewshot.csv file.. you should analyse the query and fetch data fron neo4j and provide output.. similarly for other months ypu should analyse by yourself and provide output
 You should give the output with a statement. for example if i ask what is the profit? answer should begin with the profit is:
+you should understand that last week os fourth week or 4th week
 Information:
 {context}
 
