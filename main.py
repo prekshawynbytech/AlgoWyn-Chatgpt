@@ -18,7 +18,7 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 #st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
-logo_path = "C:\Users\HP\Desktop\AlgoWyn-Chatgpt\images\logo.png"
+logo_path = "logo.png"
 
 st.markdown("""
     <style>
@@ -46,7 +46,7 @@ st.markdown("""
     }
     </style>
     <div class="header">
-        <img src="{logo_path}" class="logo" alt="Logo">
+        <img src="{logo_path}" class="logo">
         <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
