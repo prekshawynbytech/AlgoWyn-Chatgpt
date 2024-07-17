@@ -18,7 +18,7 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 #st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
-logo_path = "logo.png"
+logo_path = "AlgoWyn-Chatgpt/logo.png"
 
 # Use st.markdown to create the header with CSS
 st.markdown("""
