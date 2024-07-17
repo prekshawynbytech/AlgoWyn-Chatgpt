@@ -29,7 +29,7 @@ st.markdown("""
         justify-content: center;
         position: relative;
         padding: 40px;
-        margin-top:-102px
+        margin-top:-100px
     }
     .logo {
         position: relative;
