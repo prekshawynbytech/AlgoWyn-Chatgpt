@@ -24,7 +24,7 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
-        padding: 10px;
+        padding: 50px;
     }
     .logo {
         position: absolute;
