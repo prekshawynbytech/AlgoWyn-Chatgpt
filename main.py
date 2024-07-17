@@ -17,56 +17,39 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 
 st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
-custom_css = """
-            <style>
-             body {
-                background-color: white;
-            }
-               .title {
-               box
-               position:fixed;
-              color: #e2472f;
-                font-family: 'Helvetica Neue', Arial;
-                font-size: 2em;
-                font-weight: bold;
-                text-align: center;
-                margin-top: -50px;
-                }
-            .sidebar .sidebar-content {
-                background-color: #f8f9fa;
-                margin-top: -100px;
-            }
-            .image{
-            margin-top:-90px;
-            margin-left: 100px;
-            }
-            .stButton>button {
-                background-color: #ff7f0e;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                padding: 10px 20px;
-                font-size: 16px;
-            }
-            .stButton>button:hover {
-                background-color: #e67300;
-                color: white;
-            }
-            .stTextInput>div>div>input {
-                border: 1px solid #ccc;
-                padding: 10px;
-                border-radius: 5px;
-            }
-             
-            </style>
-            """
-#st.markdown('<div class="header"><img src="data:image/png;base64,{}" alt="logo"/>AlgoWyn</div>'.format(st.image_to_url(logo, width=50)), unsafe_allow_html=True)
-st.markdown(custom_css, unsafe_allow_html=True)
+st.markdown("""
+    <style>
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: black; /* For black background */
+        padding: 10px;
+    }
+    .logo {
+        position: absolute;
+        left: 10px; /* Adjust as needed */
+        height: 40px; /* Adjust as needed */
+    }
+    .title {
+        color: #e2472f;
+        font-family: 'Helvetica Neue', Arial;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    </style>
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="title">AlgoWyn Chatbot</div>
+    </div>
+""", unsafe_allow_html=True)
 
 
 
 # Your Streamlit app code goes here
-st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
+#st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
 from cypher_chain import CustomCypherChain
 def creds():
     load_dotenv()
