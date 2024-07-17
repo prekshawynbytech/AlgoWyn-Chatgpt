@@ -28,7 +28,7 @@ st.markdown("""
         justify-content: center;
         position: relative;
         padding: 10px;
-        margin top: -90px
+        margin top: -90px;
     }
     .logo {
         position: absolute;
@@ -42,6 +42,7 @@ st.markdown("""
         font-weight: bold;
         text-align: center;
         width: 100%;
+        margin-top:-90px;
     }
     </style>
     <div class="header">
