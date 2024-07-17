@@ -44,9 +44,15 @@ st.markdown("""
         width: 100%;
         margin-top:-90px;
     }
+    .ask {
+            color: white;
+        }
+        .algowyn {
+            color: orange;
+        }
     </style>
     <div class="header">
-        <div class="title"> Ask AlgoWyn </div>
+       <span class="ask">Ask </span><span class="algowyn">AlgoWyn</span>
     </div>
 """, unsafe_allow_html=True)
 st.sidebar.image("logo.png", width=70)
