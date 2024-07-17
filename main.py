@@ -46,7 +46,7 @@ st.markdown("""
     }
     </style>
     <div class="header">
-        <div class="title">AlgoWyn Chatbot</div>
+        <div class="title"> Ask AlgoWyn </div>
     </div>
 """, unsafe_allow_html=True)
 st.sidebar.image("logo.png", width=70)
