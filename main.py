@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-
+st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
 
@@ -48,7 +48,7 @@ st.markdown("""
         <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
-st.image("logo.png", width=70)
+
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
 from cypher_chain import CustomCypherChain
