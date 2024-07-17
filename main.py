@@ -35,7 +35,8 @@ st.markdown("""
         left: -50px; /* Adjust as needed */
         height: 20px; /* Adjust as needed */
     }
-    .ask, .algowyn {
+    .title {
+        color: #e2472f;
         font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
@@ -43,15 +44,9 @@ st.markdown("""
         width: auto;
         margin-top: -90px;
     }
-    .ask {
-        color: white;
-    }
-    .algowyn {
-        color: #e2472f;
-    }
     </style>
     <div class="header">
-        <span class="ask">Ask</span><span class="algowyn"> AlgoWyn</span>
+        <div class="title">Ask AlgoWyn</div>
     </div>
 """, unsafe_allow_html=True)
 
