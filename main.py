@@ -10,7 +10,7 @@ from langchain.schema import HumanMessage, AIMessage
 import pandas as pd
 
 from cypher_chain import CYPHER_QA_PROMPT
-st.image("logo.png", width=70)
+
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -49,7 +49,7 @@ st.markdown("""
         <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
-
+st.sidebar.image("logo.png", width=70)
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
 from cypher_chain import CustomCypherChain
