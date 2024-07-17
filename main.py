@@ -15,10 +15,10 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", initial_sidebar_state="auto")
 
-st.image("logo.png", width=70)
+#st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
-#logo_path = "C:\Users\HP\Desktop\AlgoWyn Chatgpt\logo.png"
+logo_path = "AlgoWyn Chatgpt\logo.png"
 
 # Use st.markdown to create the header with CSS
 st.markdown("""
