@@ -41,7 +41,7 @@ st.markdown("""
     }
     </style>
     <div class="header">
-        <img src="logo.png" alt="Logo" class="logo">
+        <img src="logo.png" class="logo">
         <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
