@@ -46,7 +46,7 @@ st.markdown(
     }
     </style>
     <div class="header">
-        <div class="title">Ask Algowyn😎</div>
+        <div class="title">Ask Algowyn💭</div>
     </div>
     """,
     unsafe_allow_html=True
