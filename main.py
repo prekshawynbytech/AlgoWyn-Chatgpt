@@ -17,6 +17,12 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 
 #st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
+logo_path = "logo.png"
+
+# Read the logo image file
+logo_file = open(logo_path, "rb").read()
+
+# Use st.markdown to create the header with CSS
 st.markdown("""
     <style>
     .header {
@@ -24,8 +30,8 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
-        padding: 50px;
-        margin-top:-60px
+        background-color: black; /* For black background */
+        padding: 10px;
     }
     .logo {
         position: absolute;
@@ -41,11 +47,12 @@ st.markdown("""
     }
     </style>
     <div class="header">
-        <img src="logo.png" class="logo">
-        <div class="title">AlgoWyn Chatbot</div>
+        <div class="logo-container">
+            <img class="logo" src="data:image/png;base64,{}">
+        </div>
+        <div class="title">Your Title Here</div>
     </div>
-""", unsafe_allow_html=True)
-
+""".format(st.image(logo_file, use_column_width=True, format="auto").image), unsafe_allow_html=True)
 
 
 # Your Streamlit app code goes here
