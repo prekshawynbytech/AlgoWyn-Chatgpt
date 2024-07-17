@@ -27,12 +27,12 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: black; /* For black background */
         padding: 10px;
+        margin top: -90px
     }
     .logo {
         position: absolute;
-        left: 10px; /* Adjust as needed */
+        left: -20px; /* Adjust as needed */
         height: 40px; /* Adjust as needed */
     }
     .title {
@@ -46,7 +46,7 @@ st.markdown("""
     </style>
     <div class="header">
         <img src="{logo_path}" class="logo" alt="Logo">
-        <div class="title">Your Title Here</div>
+        <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
 
