@@ -31,7 +31,7 @@ st.markdown("""
         margin top: -90px;
     }
     .logo {
-        position: absolute;
+        position: fixed;
         left: -50px; /* Adjust as needed */
         height: 20px; /* Adjust as needed */
     }
