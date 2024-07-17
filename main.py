@@ -44,6 +44,7 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         width: 100%;
+         margin-top:-80px;
     }
     .ask{
         color:white;
@@ -51,6 +52,7 @@ st.markdown(
         font-size: 2em;
         font-weight: bold;
         margin-left:-250px;
+        margin-top:-80px;
         }
     </style>
     <div class="header">
