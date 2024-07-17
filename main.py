@@ -44,9 +44,13 @@ st.markdown(
         text-align: center;
         width: 100%;
     }
+    .ask{
+        color:white;
+        }
     </style>
     <div class="header">
-        <div class="title">Ask Algowyn💭</div>
+        <div class="ask">Ask</div>
+        <div class="title"> Algowyn💭</div>
     </div>
     """,
     unsafe_allow_html=True
