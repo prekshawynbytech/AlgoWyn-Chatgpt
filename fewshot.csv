@@ -54,10 +54,10 @@ RETURN a"
 ","MATCH (a:AlgoOrders)
 WHERE date(a.order_buy_datetime) = date('2022-12-25')
 RETURN a"
-"What is the total profit and loss for DHONI strategy in July
-","MATCH (a:AlgoOrders {strategy: 'DHONI'})-[:IN_PERIOD]->(p:Period {month: 7, year: 2024})
+"What is the total profit and loss for dhoni strategy in July
+","MATCH (a:AlgoOrders {strategy: 'dhoni'})-[:IN_PERIOD]->(p:Period {month: 7, year: 2024})
 RETURN SUM(a.profit_loss) AS total_profit_loss"
-"What is the total profit and loss for DHONI strategy last week
-","MATCH (a:AlgoOrders {strategy: 'DHONI'})-[:IN_PERIOD]->(p:Period {week: 27, year: 2024}) // adjust week and year as needed
+"What is the total profit and loss for dhoni strategy last week
+","MATCH (a:AlgoOrders {strategy: 'dhoni'})-[:IN_PERIOD]->(p:Period {week: 27, year: 2024}) // adjust week and year as needed
 RETURN SUM(a.profit_loss) AS total_profit_loss"
 
