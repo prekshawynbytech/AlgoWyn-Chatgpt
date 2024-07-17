@@ -18,7 +18,6 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 st.image("logo.png", width=70)
 #logo = Image.open("logo.png")
 
-logo_path = "logo.png"
 
 st.markdown("""
     <style>
@@ -28,7 +27,7 @@ st.markdown("""
         justify-content: center;
         position: relative;
         padding: 10px;
-        margin top: -90px;
+        margin top: -130px;
     }
     .logo {
         position: absolute;
@@ -46,7 +45,6 @@ st.markdown("""
     }
     </style>
     <div class="header">
-        <img src="{logo_path}" class="logo">
         <div class="title">AlgoWyn Chatbot</div>
     </div>
 """, unsafe_allow_html=True)
