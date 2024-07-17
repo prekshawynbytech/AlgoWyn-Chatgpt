@@ -19,21 +19,22 @@ st.set_page_config(page_title="AlgoWyn", page_icon=None, layout="centered", init
 
 #logo = Image.open("logo.png")
 
-
-st.markdown("""
+st.markdown(
+    """
     <style>
     .header {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
+        background-color: black;
         padding: 10px;
-        margin-top: -90px;
     }
     .logo {
         position: absolute;
-        left: -50px; /* Adjust as needed */
-        height: 20px; /* Adjust as needed */
+        left: 10px;
+        top: 10px;
+        height: 40px;
     }
     .title {
         color: #e2472f;
@@ -41,15 +42,16 @@ st.markdown("""
         font-size: 2em;
         font-weight: bold;
         text-align: center;
-        width: auto;
-        margin-top: -90px;
+        width: 100%;
     }
     </style>
     <div class="header">
-        <div class="title">Ask AlgoWyn</div>
+        <img src="logo.png" class="logo" alt="Logo">
+        <div class="title">Your Title Here</div>
     </div>
-""", unsafe_allow_html=True)
-
+    """,
+    unsafe_allow_html=True
+)
 st.sidebar.image("logo.png", width=70)
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
