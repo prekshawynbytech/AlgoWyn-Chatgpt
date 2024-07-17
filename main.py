@@ -28,8 +28,8 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: black; /* For black background */
-        padding: 10px;
+        padding: 40px;
+        margin-top:-90px
     }
     .logo {
         position: absolute;
