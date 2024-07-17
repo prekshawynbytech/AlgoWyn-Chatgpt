@@ -25,6 +25,7 @@ st.markdown("""
         justify-content: center;
         position: relative;
         padding: 50px;
+        margin-top:10px
     }
     .logo {
         position: absolute;
