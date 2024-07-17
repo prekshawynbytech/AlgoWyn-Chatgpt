@@ -32,8 +32,9 @@ st.markdown("""
     }
     .logo {
         position: absolute;
-        left: -20px; /* Adjust as needed */
-        height: 40px; /* Adjust as needed */
+        left: -50px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
+        top:-90px;
     }
     .title {
         color: #e2472f;
