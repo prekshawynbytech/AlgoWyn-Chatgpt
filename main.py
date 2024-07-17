@@ -24,7 +24,6 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: black; /* For black background */
         padding: 10px;
     }
     .logo {
