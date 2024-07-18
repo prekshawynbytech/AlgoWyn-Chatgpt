@@ -43,7 +43,6 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         width: 100%;
-        margin-top:-90px;
     }
     </style>
     <div class="header">
