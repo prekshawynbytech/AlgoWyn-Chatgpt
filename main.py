@@ -28,7 +28,7 @@ st.markdown(
         justify-content: center;
         position: relative;
         padding: 10px;
-        margin-top:-90px;
+        margin-top:-70px;
     }
     .logo {
         position: absolute;
