@@ -48,6 +48,7 @@ st.markdown(
     }
     .ask{
         color:white;
+        position:fixed;
          font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
