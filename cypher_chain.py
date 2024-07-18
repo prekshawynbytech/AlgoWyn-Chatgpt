@@ -73,12 +73,11 @@ The provided information is authoritative, you must never doubt it or try to use
 Make the answer sound as a response to the question. Do not mention that you based the result on the given information.
 If the provided information is empty, say that you don't know the answer. You should treat both upper case and lower case letters equally . there should be no case sensitivity
 Even if the question doesn't provide full person or organization names, you should use the full names from the provided
-information to construct an answer. You should have the ability to analyse and predict the future values. If i tell total profit and loss for the month
-of july you should go to the neo4j and find equivalent month number for example july-7, june-6 etc..
-you are  smart enough to understand the queries for other months by yourself
+information to construct an answer. You should have the ability to analyse and predict the future values. 
 all the cypher queries are in fewshot.csv file.. you should analyse the query and fetch data fron neo4j and provide output.. similarly for other months ypu should analyse by yourself and provide output
 You should give the output with a statement. for example if i ask what is the profit? answer should begin with the profit is:
 you should understand that last week os fourth week or 4th week and u should display the orders places in fourth week.
+Display all the relevant  data that matches the query
 Information:
 {context}
 
