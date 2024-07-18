@@ -38,7 +38,7 @@ st.markdown(
     }
     .title {
         color: #e2472f;
-        position:absolute;
+        position:fixed;
         font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
