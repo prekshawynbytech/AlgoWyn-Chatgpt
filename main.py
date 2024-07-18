@@ -54,7 +54,7 @@ st.markdown(
     </style>
     <div class="header">
     <div class="ask">Ask</div>
-        <div class="title">Ask AlgoWyn💭</div>
+        <div class="title">AlgoWyn💭</div>
     </div>
     """,
     unsafe_allow_html=True
