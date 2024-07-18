@@ -27,8 +27,8 @@ st.markdown(
         align-items: center;
         justify-content: center;
         position: relative;
+        background-color: black;
         padding: 10px;
-        margin-top:-60px;
     }
     .logo {
         position: absolute;
@@ -43,16 +43,16 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         width: 100%;
-         margin-top:-60px;
     }
-    
     </style>
     <div class="header">
-        <div class="title"> Ask Algowyn💭</div>
+        <img src="logo.png" class="logo" alt="Logo">
+        <div class="title">Your Title Here</div>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 st.sidebar.image("logo.png", width=70)
 # Your Streamlit app code goes here
 #st.markdown("<h1 class='title'>AlgoWyn Chatbot</h1>", unsafe_allow_html=True)
