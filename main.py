@@ -27,8 +27,7 @@ st.markdown(
         align-items: center;
         justify-content: center;
         position: relative;
-        padding: -40px;
-        margin-top:-60px;
+        margin-top: -60px;
     }
     .logo {
         position: absolute;
@@ -42,18 +41,18 @@ st.markdown(
         font-size: 2em;
         font-weight: bold;
         text-align: center;
-        width: 100%;
+        flex-grow: 1;
     }
-    .ask{
-        color:white;
-         font-family: 'Helvetica Neue', Arial;
+    .ask {
+        color: white;
+        font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
-        margin-left:-10px;
-        }
+        margin-right: 10px; /* Adjust this value to move "Ask" to the left */
+    }
     </style>
     <div class="header">
-    <div class="ask">Ask</div>
+        <div class="ask">Ask</div>
         <div class="title">AlgoWyn💭</div>
     </div>
     """,
