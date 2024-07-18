@@ -27,7 +27,6 @@ st.markdown(
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: black;
         padding: 10px;
     }
     .logo {
@@ -43,11 +42,11 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         width: 100%;
+        margin-top=-90px;
     }
     </style>
     <div class="header">
-        <img src="logo.png" class="logo" alt="Logo">
-        <div class="title">Your Title Here</div>
+        <div class="title">Ask AlgoWyn💭</div>
     </div>
     """,
     unsafe_allow_html=True
