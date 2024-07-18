@@ -48,7 +48,7 @@ st.markdown(
         font-family: 'Helvetica Neue', Arial;
         font-size: 2em;
         font-weight: bold;
-        margin-right: 100px; /* Adjust this value to move "Ask" to the left */
+        margin-right: -40px; /* Adjust this value to move "Ask" to the left */
     }
     </style>
     <div class="header">
