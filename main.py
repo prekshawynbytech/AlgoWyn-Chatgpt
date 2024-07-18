@@ -44,8 +44,16 @@ st.markdown(
         text-align: center;
         width: 100%;
     }
+    .ask{
+        color:white;
+         font-family: 'Helvetica Neue', Arial;
+        font-size: 2em;
+        font-weight: bold;
+        margin-left:-250px;
+        }
     </style>
     <div class="header">
+    <div class="ask">Ask</div>
         <div class="title">Ask AlgoWyn💭</div>
     </div>
     """,
