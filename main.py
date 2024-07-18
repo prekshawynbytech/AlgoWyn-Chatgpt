@@ -46,18 +46,10 @@ st.markdown(
         width: 100%;
          margin-top:-60px;
     }
-    .ask{
-        color:white;
-         font-family: 'Helvetica Neue', Arial;
-        font-size: 2em;
-        font-weight: bold;
-        margin-left:-250px;
-        margin-top:-60px;
-        }
+    
     </style>
     <div class="header">
-        <div class="ask">Ask</div>
-        <div class="title"> Algowyn💭</div>
+        <div class="title"> Ask Algowyn💭</div>
     </div>
     """,
     unsafe_allow_html=True
