@@ -27,7 +27,7 @@ st.markdown(
         align-items: center;
         justify-content: center;
         position: relative;
-        padding: 10px;
+        padding: -40px;
         margin-top:-60px;
     }
     .logo {
