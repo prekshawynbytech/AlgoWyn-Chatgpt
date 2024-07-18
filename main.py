@@ -42,6 +42,7 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         flex-grow: 1;
+          margin-left: -40px;
     }
     .ask {
         color: white;
